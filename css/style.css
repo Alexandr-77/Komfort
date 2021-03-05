@@ -63,9 +63,10 @@ h1 {
 }
 
 .kuhni-text {
-   width: 1600px;
+   max-width: 1600px;
    text-align: center;
    margin: 0 auto 50px;
+   padding: 0 50px;
 }
 .kuhni-text h2 {
    margin: 0 0 33px 0;
