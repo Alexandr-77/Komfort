@@ -1,0 +1,99 @@
+
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+  /* background: rgb(150, 188, 224); */
+}
+.nav-item {
+   margin: 0 10px;
+}
+.nav-link {
+   font-size: 18px;
+}
+
+.top {
+   max-width: 1920px;
+   margin: 0 auto 60px;
+}
+.top img {
+   display: block;
+   max-width: 100%;
+}
+
+h1 {
+   text-align: center;
+}
+.main {
+   margin-bottom: 50px;
+}
+.main p {
+   font-size: 18px;
+   line-height: 26px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.main-card {
+   display: flex;
+   justify-content: space-between;
+}
+.main-card-img {
+   width: 380px;
+   padding: 0 10px;
+}
+.main-card-img img{
+   max-width: 100%;
+   transition: all 1s;
+}
+.main-card-img img:hover{
+   transform: scale(2.3);
+}
+
+
+.main-card-2 {
+   display: flex;
+   margin: 10px 0 50px;
+}
+.main-card-2-img {
+   max-width: 600px;
+   margin: 0 auto;
+}
+.main-card-2-img img {
+   max-width: 100%;
+}
+
+.kuhni-text {
+   width: 1600px;
+   text-align: center;
+   margin: 0 auto 50px;
+}
+.kuhni-text h2 {
+   margin: 0 0 33px 0;
+}
+.kuhni-text p {
+   font-size: 18px;
+}
+
+
+
+
+
+/* слайдер */
+.slide {
+   max-width: 800px;
+   height: 600px;
+   margin: 0 auto 150px;
+}
+/* .carousel-inner {
+   height: 800px;
+   width: 800px;
+} */
+
+
+
+
+.footer {
+   background: rgb(38, 38, 43);
+   padding: 40px 15px 30px;
+   color: #fff;
+}
