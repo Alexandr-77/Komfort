@@ -12,9 +12,7 @@
 .header-logo img {
    max-width: 100%;
 }
-/* .header-tel {
-   display: flex;
-} */
+
 .header-tel p{
    padding: 0 10px;
    margin: 0;
@@ -162,14 +160,11 @@ h1 {
 
 /* слайдер */
 .slide {
-   max-width: 800px;
-   height: 600px;
-   margin: 0 auto 150px;
+   max-width: 1920px;
+   max-height: 800px;
+   margin: 0 auto 50px;
+   overflow: hidden;
 }
-/* .carousel-inner {
-   height: 800px;
-   width: 800px;
-} */
 
 
 
