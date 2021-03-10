@@ -1,4 +1,40 @@
 
+.header {
+   margin-top: 10px;
+}
+.header-block {
+   display: flex;
+   justify-content: space-between;
+}
+.header-logo {
+   width: 150px;
+}
+.header-logo img {
+   max-width: 100%;
+}
+/* .header-tel {
+   display: flex;
+} */
+.header-tel p{
+   padding: 0 10px;
+   margin: 0;
+}
+.header-tel a {
+   text-decoration: none;
+   color: #000;
+   font-weight: 700;
+}
+.header-tel a:hover {
+   color: #FF0000;
+   font-weight: 700;
+}
+.header-tel a i {
+   text-decoration: none;
+   color: #FF0000;
+   padding-right: 13px;
+}
+
+
 
 .navbar-collapse {
   display: flex;
@@ -10,6 +46,15 @@
 }
 .nav-link {
    font-size: 18px;
+}
+.nav-link.active {
+   color: #FF0000 !important;
+}
+.nav-link:hover {
+   color: #FF0000 !important;
+}
+.dropdown-item:hover {
+   color: #FF0000 !important;
 }
 
 .top {
@@ -81,7 +126,7 @@ h1 {
    text-align: center;
    /* font-size: 36px; */
    line-height: 40px;
-   margin: 37px 0 37px;
+   margin: 80px 0 80px;
    font-size: calc(23px + .9vw);
 }
 .prima-block-colum {
@@ -95,6 +140,13 @@ h1 {
    align-self: center;
    font-size: 18px;
    padding: 0 15px;
+}
+
+.prima-block-colum-text h2 {
+   text-align: left;
+   font-size: 55px;
+   margin: 0 0 65px;
+   color: #c6cac9;
 }
 .prima-block-colum-text h3 {
    font-size: 24px;
@@ -121,11 +173,66 @@ h1 {
 
 
 
+/* диваны */
+/* .divan-block {
+   display: flex;
+   flex-wrap: wrap;
+
+}
+.divan-block-img {
+   width: 310px;
+   margin: 5px;
+}
+.divan-block-img img {
+   max-width: 100%;
+   transition: all .9s;
+}
+.divan-block-img img:hover {
+   transform: scale(1.2);
+} */
+
+
+
+.divan-block-item {
+   margin: 0 auto;
+}
+.divan-block-item a {
+   width: 1200px;
+   height: 1200px;
+   margin: 10px;
+
+}
+.divan-block-item a img {
+   width: 300px;
+}
+
+
+
+
 
 .footer {
    background: rgb(38, 38, 43);
    padding: 40px 15px 30px;
    color: #fff;
+}
+.footer-block {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-block__item h3 {
+   margin-bottom: 35px;
+}
+.footer-block__item a {
+   text-decoration: none;
+   color: #fff;
+}
+.footer-block__item a:hover {
+   color: #FF0000;
+}
+.footer-block__item a i {
+   /* color: #fff; */
+   padding-right: 13px;
 }
 
 @media (max-width: 768px) {
