@@ -197,10 +197,13 @@ h1 {
    margin: 10px;
 
 }
-.divan-block-item a img {
-   width: 300px;
-}
 
+.divan-block-item a img {
+    width: 300px;
+    object-fit: cover;
+    height: 200px;
+    margin-bottom: 25px;
+}
 
 
 
