@@ -152,12 +152,17 @@
 }
 .fancy-block-item a {
    margin: 10px;
+   overflow: hidden;
 }
 .fancy-block-item a img {
     width: 300px;
     height: 200px;
     object-fit: cover;
     margin-bottom: 5px;
+    transition: all 0.8s;
+}
+.fancy-block-item a img:hover {
+   transform: scale(1.2);
 }
 /* ====== Галерея /======== */
 
