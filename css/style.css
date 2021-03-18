@@ -83,6 +83,18 @@
    max-width: 100%;
 }
 /* ======= top /======= */
+.baner {
+   max-width: 1200px;
+   max-height: 800px;
+   margin: 0 auto;
+}
+.baner img {
+   max-width: 100%;
+   display: block;
+   margin: 0 auto;
+}
+
+
 /* ======= kuhni ======= */
 .kuhni-text {
    max-width: 1600px;
@@ -195,6 +207,18 @@
 .footer-block__item a i {
    /* color: #fff; */
    padding-right: 13px;
+}
+
+.footer-block__item-masage {
+   display: flex;
+   justify-content: space-between;
+}
+.footer-block__item-masage i {
+   font-size: 24px;
+
+}
+.footer-block__item-masage i:hover  {
+   color: #FF0000;
 }
 
 /* ======= медиа 768 =========  */
