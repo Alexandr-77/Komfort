@@ -221,6 +221,68 @@
    color: #FF0000;
 }
 
+/* ====== Футер ми ======= */
+/* ====== Футер ми ======= */
+/* ====== Футер ми ======= */
+.footer-mi {
+   background: rgb(38, 38, 43);
+   padding: 30px 0 15px;
+}
+.footer-mi-block {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid #595765;
+   padding-bottom: 20px;
+
+}
+
+.footer-mi-block__logo {
+   color: #fff;
+   font-size: 38px;
+}
+/* .footer-mi-block__logo img {
+   width: 150px;
+} */
+.footer-mi-block__icon {
+   display: flex;
+}
+.footer-mi-block__icon p {
+   margin-bottom: 0;
+   padding-top: 15px;
+}
+.footer-mi-block__icon p i {
+   font-size: 25px;
+   margin: 0 15px;
+   color: #fff;
+}
+/* 2bl */
+.footer-mi-block-too {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+
+}
+.footer-mi-block-too__contakt {
+   display: flex;
+}
+.footer-mi-block-too__contakt p {
+   margin: 0 20px;
+}
+.footer-mi-block-too__contakt p a {
+   text-decoration: none;
+   color: #fff;
+}
+.footer-mi-block-too__contakt p a i {
+   margin-right: 10px;
+}
+.footer-mi-block-too__creator {
+   color: #fff;
+}
+.footer-mi-block-too__creator a {
+   color: #FF0000;
+   text-decoration: none;
+
+}
 /* ======= медиа 768 =========  */
 @media (max-width: 768px) {
    .top {
