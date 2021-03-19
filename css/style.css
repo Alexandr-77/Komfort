@@ -259,6 +259,7 @@
 .footer-mi-block-too {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
    padding-top: 20px;
 
 }
@@ -277,12 +278,28 @@
 }
 .footer-mi-block-too__creator {
    color: #fff;
+   font-size: 14px;
 }
 .footer-mi-block-too__creator a {
    color: #FF0000;
    text-decoration: none;
 
 }
+
+/* ======= медиа 991 =========  */
+@media (max-width: 991px) {
+.footer-mi-block-too__creator {
+   display: block;
+   margin: 0 auto 0;
+   }
+.footer-mi-block-too__creator span {
+   text-align: center;
+   }
+   .footer-mi-block {
+      align-items: center;
+  }
+}
+/* ======= медиа 991 =========  */
 /* ======= медиа 768 =========  */
 @media (max-width: 768px) {
    .top {
@@ -315,6 +332,15 @@
       width: 100%;
       padding: 0;
    }
+   .footer-mi-block-too__contakt {
+      flex-direction: column;
+   }
+   .footer-mi-block-too__contakt p {
+      margin: 0 20px;
+   }
+   .footer-mi-block-too__creator {
+      margin: 0 20px;
+  }
 }
 /* ====== медиа 768 / =======  */
 
@@ -350,6 +376,16 @@
 }
 /* ====== медиа 576 / =======  */
 
+/* ====== медиа 500 =======  */
+@media (max-width: 500px) {
+   .footer-mi-block {
+      display: block;
+   }
+   .footer-mi-block__logo {
+      padding-left: 15px;
+  }
+}
+/* ====== медиа 500 / =======  */
 /* ====== медиа 400 =======  */
 @media (max-width: 400px) {
    .footer {
