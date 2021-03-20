@@ -304,6 +304,8 @@
    }
 .footer-mi-block-too__creator span {
    text-align: center;
+   display: block;
+   margin-top: 8px;
    }
    .footer-mi-block {
       align-items: center;
@@ -350,7 +352,10 @@
    }
    .footer-mi-block-too__creator {
       margin: 0 20px;
-  }
+   }
+   .footer-mi-block-too__creator span {
+      text-align: left;
+   }
 }
 /* ====== медиа 768 / =======  */
 
