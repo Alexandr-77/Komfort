@@ -254,6 +254,10 @@
    font-size: 25px;
    margin: 0 15px;
    color: #fff;
+   transition: all .5s;
+}
+.footer-mi-block__icon p i:hover {
+   color: #FF0000;
 }
 /* 2bl */
 .footer-mi-block-too {
@@ -276,6 +280,10 @@
 .footer-mi-block-too__contakt p a i {
    margin-right: 10px;
 }
+.footer-mi-block-too__contakt p a:hover {
+   color: #FF0000;
+   transition: all .5s;
+}
 .footer-mi-block-too__creator {
    color: #fff;
    font-size: 14px;
@@ -283,7 +291,9 @@
 .footer-mi-block-too__creator a {
    color: #FF0000;
    text-decoration: none;
-
+}
+.footer-mi-block-too__creator a:hover {
+   text-decoration: underline;
 }
 
 /* ======= медиа 991 =========  */
