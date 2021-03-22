@@ -154,7 +154,15 @@
 .fancy h2 {
    text-align: center;
    margin-top: 20px;
-   margin-bottom: 20px;
+   margin-bottom: 5px;
+}
+.fancy hr {
+   width: 100px;
+   height: 3px;
+   text-align: center;
+   background: #ff0000;
+   margin: 0 auto 20px;
+   opacity: .75;
 }
 .fancy-block-item {
    display: flex;
@@ -426,6 +434,9 @@
    margin-top: -52px;
    border: none;
    }
+   .bg-light {
+      background-color: #fff !important;
+  }
    .navbar {
       position: static;
       padding-top: 2px;
