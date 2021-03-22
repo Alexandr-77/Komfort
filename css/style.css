@@ -298,18 +298,21 @@
 
 /* ======= медиа 991 =========  */
 @media (max-width: 991px) {
-.footer-mi-block-too__creator {
+   .navbar-light .navbar-toggler {
+      margin-left: auto;
+   }
+   .footer-mi-block-too__creator {
    display: block;
    margin: 0 auto 0;
    }
-.footer-mi-block-too__creator span {
+   .footer-mi-block-too__creator span {
    text-align: center;
    display: block;
    margin-top: 8px;
    }
    .footer-mi-block {
       align-items: center;
-  }
+   }
 }
 /* ======= медиа 991 =========  */
 /* ======= медиа 768 =========  */
@@ -319,7 +322,7 @@
    }
    .main {
       margin-bottom: 0px;
-  }
+   }
    .kuhni-text {
       padding: 0;
    }
@@ -363,12 +366,19 @@
 @media (max-width: 650px) {
    .fancy-block-item a {
       margin: 3px;
-  }
+   }
    .fancy-block-item a img {
       width: 280px;
       height: 200px;
       margin-bottom: 0;
-  }
+   }
+   .prima h2 {
+      margin: 80px 0 40px;
+   }
+   .prima-block-colum-text h2 {
+      margin: 0 0 35px;
+   }
+
 }
 /* ====== медиа 650 / =======  */
 
@@ -393,25 +403,41 @@
 
 /* ====== медиа 500 =======  */
 @media (max-width: 500px) {
+   .header-block {
+      flex-direction: column-reverse;
+   }
+   .header-tel {
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 1px solid rgba(0,0,0,.55);
+   }
+   .header-tel a {
+      font-weight: 400;
+  }
+   .header-logo {
+      margin-top: 10px;
+  }
+   .navbar-light .navbar-toggler {
+   margin-top: -52px;
+   border: none;
+   }
+   .navbar {
+      position: static;
+      padding-top: 2px;
+   }
+
    .footer-mi-block {
       display: block;
    }
    .footer-mi-block__logo {
       padding-left: 15px;
-  }
+   }
 }
 /* ====== медиа 500 / =======  */
 /* ====== медиа 400 =======  */
 @media (max-width: 400px) {
    .footer {
       padding: 25px 15px 10px;
-   }
-
-   .header-logo {
-      width: 100px;
-   }
-   .header-tel a {
-      font-size: 12px;
    }
    .fancy-block-item a img {
       width: 153px;
@@ -426,3 +452,11 @@
    }
 }
 /* ====== медиа 400 / =======  */
+
+/* ====== медиа 350 =======  */
+@media (max-width: 350px) {
+   .header-tel a {
+      font-size: 14px;
+   }
+}
+/* ====== медиа 350 / =======  */
