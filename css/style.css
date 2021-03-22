@@ -226,7 +226,7 @@
 /* ====== Футер ми ======= */
 .footer-mi {
    background: rgb(38, 38, 43);
-   padding: 30px 0 15px;
+   padding: 27px 0 15px;
 }
 .footer-mi-block {
    display: flex;
@@ -239,6 +239,10 @@
 .footer-mi-block__logo {
    color: #fff;
    font-size: 38px;
+   width: 245px;
+}
+.footer-mi-block__logo img {
+   max-width: 100%;
 }
 /* .footer-mi-block__logo img {
    width: 150px;
@@ -413,6 +417,7 @@
    }
    .header-tel a {
       font-weight: 400;
+      font-size: 14px;
   }
    .header-logo {
       margin-top: 10px;
@@ -430,7 +435,7 @@
       display: block;
    }
    .footer-mi-block__logo {
-      padding-left: 15px;
+      padding-left: 3px;
    }
 }
 /* ====== медиа 500 / =======  */
