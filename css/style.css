@@ -111,12 +111,32 @@
 }
 /* ======= kuhni / ======= */
 
+/* ======= кнопка ======= */
+.btn {
+   display: block;
+   color: #fff;
+   background:#ff0000;
+   padding: 8px 18px;
+   font-size: 16px;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin: 60px auto 0;
+   width: 225px;
+   transition: all 0.5s;
+}
+.btn:hover {
+   color: #ff0000;
+   background:#ffc5c5;
+}
+
+/* ======= кнопка / ======= */
+
 /* ====== prima ======== */
 .prima h2 {
    text-align: center;
    /* font-size: 36px; */
    line-height: 40px;
-   margin: 80px 0 80px;
+   margin: 40px 0 80px;
    font-size: calc(23px + .9vw);
 }
 .prima-block-colum {
