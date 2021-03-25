@@ -126,12 +126,15 @@
 }
 .btn:hover {
    color: #ff0000;
-   background:#ffc5c5;
+   background: #e6dcdc;
 }
 
 /* ======= кнопка / ======= */
 
 /* ====== prima ======== */
+.prima {
+   position: relative;
+}
 .prima h2 {
    text-align: center;
    /* font-size: 36px; */
@@ -205,6 +208,72 @@
    transform: scale(1.2);
 }
 /* ====== Галерея /======== */
+
+/* ====== Трубка ======== */
+
+.zakaz {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 60px;
+   padding: 10px;
+   background: #FF0000;
+   border: 5px solid #fbc9c9;
+   border-radius: 50%;
+   position: fixed;
+   bottom: 5%;
+   right: 5%;
+   animation: shake .7s linear infinite 1s alternate forwards;
+   cursor: pointer;
+}
+.zakaz:hover {
+   animation-play-state: paused;
+}
+.zakaz:hover i{
+   color: rgb(25, 252, 17);
+}
+.zakaz i {
+   color: #fff;
+   font-size: 26px;
+}
+
+@keyframes shake {
+
+   0.50%, 90% {
+      -webkit-transform: translate3d(-1px, 0, 0);
+      transform: translate3d(-1px, 0, 0);
+    }
+   
+   0.50%, 80% {
+     -webkit-transform: translate3d(1px, 0, 0);
+     transform: translate3d(1px, 0, 0);
+   }
+   
+   30%, 50%, 70% {
+     -webkit-transform: translate3d(-1px, 0, 0);
+     transform: translate3d(-1px, 0, 0);
+   }
+   
+   0.50%, 60% {
+     -webkit-transform: translate3d(1px, 0, 0);
+     transform: translate3d(1px, 0, 0);
+   }
+}
+
+form input{
+   display: block;
+   margin: 2px auto 8px;
+}
+label {
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+}
+form .btn {
+   margin-top: 40px;
+}
+/* ====== Трубка /======== */
 
 
 /* ======= футер ====== */
