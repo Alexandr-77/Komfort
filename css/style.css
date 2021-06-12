@@ -187,6 +187,27 @@
    color:inherit;
  }
  
+ @media (max-width:991px) {
+   .navbar-collapse {
+      display: block;
+   }
+   .nav-item {
+      margin: 3px 0;
+      background: #e4e4e4;
+      border-radius: 5px;
+      padding: 0 15px;
+   }
+   .navbar-light .navbar-toggler {
+     border: none;
+     padding-right: 5px;
+   }
+   .navbar-toggler:focus {
+      outline: 0;
+      box-shadow: none;
+  }
+
+}
+
  @media (max-width:767px) {
    .testimonials-clean h2 {
      margin-bottom:25px;
@@ -482,9 +503,7 @@ form .btn {
 .footer-mi-block__logo img {
    max-width: 100%;
 }
-/* .footer-mi-block__logo img {
-   width: 150px;
-} */
+
 .footer-mi-block__icon {
    display: flex;
 }
@@ -688,6 +707,9 @@ form .btn {
 /* ====== медиа 500 / =======  */
 /* ====== медиа 400 =======  */
 @media (max-width: 400px) {
+   /* .container-menu {
+      padding: 0 7px;
+   } */
    .footer {
       padding: 25px 15px 10px;
    }
