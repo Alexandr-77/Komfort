@@ -2,22 +2,32 @@
 
 
 .header {
-   margin-top: 10px;
+   margin: 5px 0;
 }
 .header-block {
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
-.header-logo {
+/* .header-logo {
    width: 150px;
-}
+} */
 .header-logo img {
    max-width: 100%;
 }
-
-.header-tel p {
-   padding: 0 10px;
+.header-logo-link {
+   text-decoration: none;
+   color: #222222;
+}
+.header-logo-text {
+   font-size: 30px;
+   line-height: 100%;
    margin: 0;
+}
+.header-logo-subtext {
+   display: block;
+   font-size: 13px;
+   line-height: 100%;
 }
 .header-tel a {
    text-decoration: none;
@@ -670,20 +680,15 @@ form .btn {
 
 /* ====== медиа 500 =======  */
 @media (max-width: 500px) {
-   .header-block {
+   /* .header-block {
       flex-direction: column-reverse;
-   }
+   } */
    .header-tel {
-      display: flex;
-      justify-content: space-around;
-      border-bottom: 1px solid rgba(0,0,0,.55);
+      display: none;
    }
    .header-tel a {
       font-weight: 400;
       font-size: 14px;
-  }
-   .header-logo {
-      margin-top: 10px;
   }
    .navbar-light .navbar-toggler {
    margin-top: -52px;
