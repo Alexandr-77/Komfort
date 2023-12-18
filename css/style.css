@@ -94,17 +94,18 @@
 }
 /* ======= top /======= */
 .baner {
-   max-width: 1200px;
-   max-height: 800px;
-   margin: 0 auto;
+   width: 100%;
+   height: 800px;
+   margin: 0 auto 70px;
+   /* overflow: hidden; */
 }
 .baner img {
-   max-width: 100%;
+   width: 100%;
+   height: 100%;
    display: block;
    margin: 0 auto;
+   object-fit: cover;
 }
-
-
 /* ======= kuhni ======= */
 .kuhni-text {
    max-width: 1600px;
@@ -358,19 +359,20 @@
 }
 .fancy-block-item {
    display: flex;
+   gap: 10px;
    flex-wrap: wrap;
-   justify-content: space-evenly;
-   margin: 0 auto;
+   justify-content: center;
+   margin: 50px auto 0;
 }
 .fancy-block-item a {
-   margin: 10px;
    overflow: hidden;
+   width: 300px;
+   height: 200px;
 }
 .fancy-block-item a img {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    margin-bottom: 5px;
     transition: all 0.8s;
 }
 .fancy-block-item a img:hover {
@@ -495,16 +497,16 @@ form .btn {
 /* ====== Футер ми ======= */
 .footer-mi {
    background: rgb(38, 38, 43);
-   padding: 27px 0 15px;
+   padding: 25px 0 15px;
 }
 .footer-mi-block {
    display: flex;
    justify-content: space-between;
+   align-items: center;
    border-bottom: 1px solid #595765;
-   padding-bottom: 20px;
+   padding-bottom: 5px;
 
 }
-
 .footer-mi-block__logo {
    color: #fff;
    font-size: 38px;
@@ -516,18 +518,15 @@ form .btn {
 
 .footer-mi-block__icon {
    display: flex;
+   align-items: center;
 }
-.footer-mi-block__icon p {
-   margin-bottom: 0;
-   padding-top: 15px;
-}
-.footer-mi-block__icon p i {
+.footer-mi-block__icon i {
    font-size: 25px;
    margin: 0 15px;
    color: #fff;
    transition: all .5s;
 }
-.footer-mi-block__icon p i:hover {
+.footer-mi-block__icon i:hover {
    color: #FF0000;
 }
 /* 2bl */
@@ -540,18 +539,18 @@ form .btn {
 }
 .footer-mi-block-too__contakt {
    display: flex;
-}
-.footer-mi-block-too__contakt p {
    margin: 0 20px;
 }
-.footer-mi-block-too__contakt p a {
+.footer-mi-block-too__contakt a {
+   display: inline-block;
+   margin-right: 25px;
    text-decoration: none;
    color: #fff;
 }
-.footer-mi-block-too__contakt p a i {
+.footer-mi-block-too__contakt a i {
    margin-right: 10px;
 }
-.footer-mi-block-too__contakt p a:hover {
+.footer-mi-block-too__contakt a:hover {
    color: #FF0000;
    transition: all .5s;
 }
@@ -638,13 +637,12 @@ form .btn {
 
 /* ====== медиа 650 =======  */
 @media (max-width: 650px) {
-   .fancy-block-item a {
-      margin: 3px;
+   .fancy-block-item {
+      padding: 0 7px;
    }
-   .fancy-block-item a img {
-      width: 280px;
+   .fancy-block-item a {
+      width: 49%;
       height: 200px;
-      margin-bottom: 0;
    }
    .prima h2 {
       margin: 80px 0 40px;
@@ -658,14 +656,17 @@ form .btn {
 
 /* ====== медиа 576 =======  */
 @media (max-width: 576px) {
+   .baner {
+      margin: 0 auto 50px;
+      height: 600px;
+   }
+  .fancy-block-item {
+      margin: 40px auto 0;
+      gap: 7px;
+   }
    .kuhni-text p {
       font-size: 16px;
   }
-  .fancy-block-item a img {
-   width: 190px;
-   height: 150px;
-   margin-bottom: 5px;
-   }
    .footer-block__item h3 {
       margin-bottom: 15px;
    }
@@ -680,16 +681,19 @@ form .btn {
 
 /* ====== медиа 500 =======  */
 @media (max-width: 500px) {
-   /* .header-block {
-      flex-direction: column-reverse;
-   } */
    .header-tel {
       display: none;
    }
    .header-tel a {
       font-weight: 400;
       font-size: 14px;
-  }
+   }
+  .baner {
+   margin: 0 auto 35px;
+   }
+   .fancy-block-item {
+   margin: 30px auto 0;
+   }
    .navbar-light .navbar-toggler {
    margin-top: -52px;
    border: none;
@@ -701,27 +705,40 @@ form .btn {
       position: static;
       padding-top: 2px;
    }
-
+   .navbar-nav {
+      margin: 15px 0 45px;
+  }
    .footer-mi-block {
       display: block;
    }
    .footer-mi-block__logo {
-      padding-left: 3px;
+      margin-bottom: 35px;
+  }
+  .footer-mi-block__icon {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   justify-content: space-around;
    }
+  .footer-mi-block__icon i {
+   margin: 0;
+   }
+   .footer-mi-block-too__contakt a {
+      margin: 0 0 10px;
+  }
 }
 /* ====== медиа 500 / =======  */
 /* ====== медиа 400 =======  */
 @media (max-width: 400px) {
-   /* .container-menu {
-      padding: 0 7px;
-   } */
    .footer {
       padding: 25px 15px 10px;
    }
-   .fancy-block-item a img {
-      width: 153px;
-      height: 118px;
-      margin-bottom: 0px;
+   .fancy-block-item {
+      padding: 0 3px;
+   }
+   .fancy-block-item a {
+      width: 48%;
+      height: 128px;
    }
    .footer-block__item h3 {
       margin-bottom: 15px;
